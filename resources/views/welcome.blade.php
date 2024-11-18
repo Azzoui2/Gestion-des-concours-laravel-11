@@ -1,4 +1,19 @@
-<!DOCTYPE html>
+
+@extends('layout')
+
+@section('content')
+    <h1>Bienvenue sur la gestion des étudiants</h1>
+    <p>Utilisez le menu ci-dessus pour naviguer entre les pages.</p>
+@endsection
+
+
+
+
+
+
+
+
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -130,4 +145,4 @@
             </div>
         </div>
     </body>
-</html>
+</html> --}}
